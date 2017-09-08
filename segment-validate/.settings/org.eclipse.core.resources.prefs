@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//src/io/Fits2DWriter.java=UTF-8
+encoding//src/io/Fits3DWriter.java=UTF-8
+encoding//src/io/FitsLoader.java=UTF-8
+encoding//src/threshold3D/MinErrorThresh.java=UTF-8
+encoding//src/threshold3D/TopoStableThresh.java=UTF-8

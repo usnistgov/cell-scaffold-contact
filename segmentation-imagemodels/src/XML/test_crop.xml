@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CropZStacks>
+   <output>
+      <directory>./test_data/Segmentations/SpunCoat-06252015_ZProfile</directory>
+   </output>
+   <input>
+      <imageDirectory>./test_data/ExtractedTiffs06252015/Spun Coat</imageDirectory>
+      <imagePatternCell>*_ch00.tif</imagePatternCell>
+      <imagePatternScaffold>*_ch01.tif</imagePatternScaffold>
+   </input>
+   <cellSegmentationInfo>
+      <directory>./test_data/Segmentations/SpunCoat-06252015-offset2000_MinError</directory>
+      <file>./test_data/Segmentations/SpunCoat-06252015-offset2000_MinError/SpunCoat-06252015_segmentation.csv</file>
+   </cellSegmentationInfo>
+   <backgroundImageInfo>
+      <file>./test_data/BackgroundImageFileNames/SpunCoat-06252015.txt</file>
+   </backgroundImageInfo>
+   <parameters>
+      <xyMargin>0.2</xyMargin>
+      <smoothFilterSize>21</smoothFilterSize>
+      <smoothFilterSTD>5</smoothFilterSTD>
+   </parameters>
+</CropZStacks>
