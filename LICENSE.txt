@@ -17,3 +17,8 @@ IN ANY WAY CONNECTED WITH THIS SOFTWARE, WHETHER OR NOT BASED UPON WARRANTY,
 CONTRACT, TORT, OR OTHERWISE, WHETHER OR NOT INJURY WAS SUSTAINED BY PERSONS OR 
 PROPERTY OR OTHERWISE, AND WHETHER OR NOT LOSS WAS SUSTAINED FROM, OR AROSE OUT 
 OF THE RESULTS OF, OR USE OF, THE SOFTWARE OR SERVICES PROVIDED HEREUNDER.
+
+Some of the projects in this repository depend on:
+- ITK (license Apache 2): https://itk.org/ITK/project/licenseversion1.html
+- Alglib Free Edition (GPL license version 2 or later): http://www.alglib.net/
+- VesselKnife (license GPL): https://gitlab.com/vesselknife/vesselknife

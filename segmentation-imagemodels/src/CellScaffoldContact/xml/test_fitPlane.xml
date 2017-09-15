@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FitPlane>
+   <output>
+      <directory>../test_data/PlanarGeoModel</directory>
+   </output>
+   <input>
+      <imageDirectory>../test_data/Segmentations/SpunCoat-06252015_ZProfile/FITS</imageDirectory>
+      <imagePatternScaffold>_ch01.fits</imagePatternScaffold>
+   </input>
+   <cellSegmentationInfo>
+      <directory>../test_data/Segmentations/SpunCoat-06252015_ZProfile</directory>
+      <file>segmentation.csv</file>
+   </cellSegmentationInfo>
+   <parameters>
+      <dx>0.12</dx>
+      <dy>0.12</dy>
+      <dz>0.462</dz>
+      <du>0.462</du>
+      <DoF>3</DoF>
+      <unit>micrometer</unit>
+   </parameters>
+</FitPlane>

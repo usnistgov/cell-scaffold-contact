@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KmeansClustering>
+   <output>
+      <directory>../test_data/ContactPointEstimation/Kmeans/SpunCoat-06252015_ZProfile/FITS</directory>
+   </output>
+   <input>
+      <imageDirectory>../test_data/Segmentations/SpunCoat-06252015_ZProfile/FITS</imageDirectory>
+      <imagePatternCell>*_ch00.fits</imagePatternCell>
+      <imagePatternScaffold>*_ch01.fits</imagePatternScaffold>
+   </input>
+</KmeansClustering>

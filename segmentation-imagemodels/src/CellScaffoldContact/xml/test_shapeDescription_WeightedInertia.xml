@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ShapeDescription_WeightedInertia>
+   <output>
+      <filename>../test_data/ContactPointEstimation/Alg2/SpunCoat-07072015_ZProfile/Shape/PhysicalUnit/WeightedInertia.csv</filename>
+   </output>
+   <input>
+      <probDirectory>../test_data/ContactPointEstimation/Alg2/SpunCoat-07072015_ZProfile</probDirectory>
+      <probPattern>*.fits</probPattern>
+   </input>
+   <parameters>
+      <CDELT1>0.12</CDELT1>
+      <CDELT2>0.12</CDELT2>
+      <CDELT3>0.462</CDELT3>
+      <unit>Micrometer</unit>
+   </parameters>
+</ShapeDescription_WeightedInertia>

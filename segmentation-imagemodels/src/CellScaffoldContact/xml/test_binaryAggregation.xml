@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BinaryAggregation>
+   <output>
+      <directory>../test_data/ContactPointEstimation/Alg2/Aggregated</directory>
+   </output>
+   <input>
+      <probDirectory1>../test_data/ContactPointEstimation/Alg2/SpunCoat-06252015_ZProfile/BinaryContact</probDirectory1>
+      <probDirectory2>../test_data/ContactPointEstimation/Alg2/SpunCoat-07072015_ZProfile/BinaryContact</probDirectory2>
+      <probPattern>.fits</probPattern>
+   </input>
+   <shapeInfo>
+      <file1>../test_data/ContactPointEstimation/Alg2/SpunCoat-06252015_ZProfile/Shape/ImageUnit/PCA.csv</file1>
+      <file2>../test_data/ContactPointEstimation/Alg2/SpunCoat-07072015_ZProfile/Shape/ImageUnit/PCA.csv</file2>
+   </shapeInfo>
+   <parameters>
+      <scaffoldType>SpunCoat</scaffoldType>
+      <sizeWidth>3001</sizeWidth>
+      <sizeHeight>2201</sizeHeight>
+      <sizeLayer>211</sizeLayer>
+   </parameters>
+</BinaryAggregation>

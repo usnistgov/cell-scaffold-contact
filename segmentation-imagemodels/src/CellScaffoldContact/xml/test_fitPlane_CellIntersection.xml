@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FitPlane_CellIntersection>
+   <output>
+      <directory>../test_data/PlanarGeoModel/CellIntersection</directory>
+   </output>
+   <input>
+      <imageDirectory>../test_data/PlanarGeoModel/CellBW</imageDirectory>
+      <imageExtension>.fits</imageExtension>
+      <planarCoefficientFile>../test_data/PlanarGeoModel/Hyperplane_Coefficients.csv</planarCoefficientFile>
+   </input>
+   <parameters>
+      <ez>0.70711</ez>
+   </parameters>
+</FitPlane_CellIntersection>
